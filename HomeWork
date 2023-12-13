@@ -1,0 +1,27 @@
+HomeWork:
+
+Create a class Address that consists of the following private fields: 
+• city 
+• street
+ • number
+ • postal_code
+
+ and the following public methods:
+ • constructor setting all fields based on its parameters 
+• methods get that return values of the class fields 
+• methods set that set values of the class fields based on its parameters 
+• display that displays full address on the screen
+ Then, create a class Person with the following private fields:
+ • name
+ • surname
+ • year_of_birth (constant) 
+ • address (type Address)
+
+ The class contains the following public methods:
+ • constructor setting all fields based on its parameters
+ • methods get that return values of the class fields
+ • methods set that set values of the class fields based on its parameters 
+• getAge that returs age based on the year of birth (hint: to get the current year use Calendar.getInstance().get(Calendar.YEAR) )
+ • is18 that returns true if person is of age and false otherwise
+ • changeAddress that allows to change the address based on new values passed as its parameters
+ • display that displays all data on the screen, including age and full address
